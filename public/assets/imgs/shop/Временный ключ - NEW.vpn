@@ -1,0 +1,54 @@
+﻿# Game Client Game Connection Setting File
+# 
+# This file is exported using the Game Client Manager.
+# The contents of this file can be edited using a text editor.
+# 
+# When this file is imported to the Client Connection Manager
+#  it can be used immediately.
+
+declare root
+{
+	bool AddDefaultCA false
+	bool CheckServerCert false
+	uint64 CreateDateTime 0
+	uint64 LastConnectDateTime 0
+	bool RetryOnServerCert false
+	bool StartupAccount false
+	uint64 UpdateDateTime 0
+
+	declare ClientAuth
+	{
+		uint AuthType 1
+		byte HashedPassword 14E6UYWgyhmMuM63VCOeJCZmNv8=
+		string Username official
+	}
+	declare ClientOption
+	{
+		string AccountName Unite$20Gaming
+		uint AdditionalConnectionInterval 1
+		uint ConnectionDisconnectSpan 0
+		string CustomHttpHeader $
+		string DeviceName VPN
+		bool DisableQoS false
+		bool HalfConnection false
+		bool HideNicInfoWindow false
+		bool HideStatusWindow false
+		string Hostname win.unite-gaming.com
+		string HubName windows
+		uint MaxConnection 1
+		bool NoRoutingTracking false
+		bool NoUdpAcceleration false
+		uint NumRetry 4294967295
+		uint Port 992
+		uint PortUDP 0
+		string ProxyName 127.0.0.1
+		uint ProxyPort 10809
+		uint ProxyType 0
+		string ProxyUsername $
+		bool RequireBridgeRoutingMode false
+		bool RequireMonitorMode false
+		uint RetryInterval 15
+		bool UseCompress false
+		bool UseEncrypt true
+	}
+}
